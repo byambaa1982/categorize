@@ -25,3 +25,10 @@ There are three different tables. `trips.txt calendar.txt and stop_times.txt`. T
     massage_therapy=['massage','tissue','masages','massage,','tissue,','masages,']
     meditation=['meditation','meditations','meditation,','meditations,']
 
+### Goal
+
+  index  | Name    | Address     | Description | Category
+-------- | ------------- | -------- | -------------- | -------------------
+0   | The Pushy Goat             | 509 N Lorraine | Our mission at The Pushy Goat is to care for t...| None
+1   | HALO Day Spa	 	    | 1307 N Rose Hill Rd | Halo specializes in organic healing therapies....   | Spa
+2   | Salon Modern Classics            | 9511 Antioch Rd | Full service Salon for EVERYONE! We care about...| Beauty
