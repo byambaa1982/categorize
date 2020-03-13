@@ -32,3 +32,10 @@ There are three different tables. `trips.txt calendar.txt and stop_times.txt`. T
 0   | The Pushy Goat             | 509 N Lorraine | Our mission at The Pushy Goat is to care for t...| None
 1   | HALO Day Spa	 	    | 1307 N Rose Hill Rd | Halo specializes in organic healing therapies....   | Spa
 2   | Salon Modern Classics            | 9511 Antioch Rd | Full service Salon for EVERYONE! We care about...| Beauty
+
+
+If you have anything to ask, please contact me clicking following link?
+
+www.fiverr.com/coderjs
+
+Thank you
