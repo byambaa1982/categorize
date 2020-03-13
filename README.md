@@ -1,5 +1,7 @@
 # Categorize rows using description and key words
 
+All code is here: https://github.com/byambaa1982/categorize/blob/master/main.py
+
 ## Goal
 One of my customers ask me to categorize data using describtions and certain key words. 
 There are three different tables. `trips.txt calendar.txt and stop_times.txt`. The goal is that we needed to combine them and made some data engineering. 
