@@ -1,11 +1,11 @@
-from google.colab import drive
-drive.mount('/content/gdrive', force_remount=True)
-root_dir = "/content/gdrive/My Drive/categorize"
-base_dir = root_dir + 'byamba-v1/'
+# from google.colab import drive
+# drive.mount('/content/gdrive', force_remount=True)
+# root_dir = "/content/gdrive/My Drive/categorize"
+# base_dir = root_dir + 'byamba-v1/'
 
 
-import os
-os.chdir('/content/gdrive/My Drive/categorize')  #change dir
+# import os
+# os.chdir('/content/gdrive/My Drive/categorize')  #change dir
 # !mkdir train  #create a directory named train/
 # !mkdir test  #create a directory named test/
 #!unzip -q varm.zip   #unzip data in StevenCSV
