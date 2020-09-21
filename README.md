@@ -97,7 +97,30 @@ df.fillna(value=pd.np.nan, inplace=True)
 df['nan_col']=df.category.map(lambda x:type(x))
 dfnone=df.loc[df.nan_col==float]
 ```
-    
+
+#### Extract Hashtag words
+
+```python
+# function to print all the hashtags in a text 
+def extract_hashtags(text): 
+      
+    # initializing hashtag_list variable 
+    hashtag_list = [] 
+      
+    # splitting the text into words 
+    for word in text.split(): 
+          
+        # checking the first charcter of every word 
+        if word[0] == '#': 
+              
+            # adding the word to the hashtag_list 
+            hashtag_list.append(word) 
+    return hashtag_list
+```  
+
+```python
+df['hashtags']=df.tweets.map(lambda x:extract_hashtags(x))
+```
 
 If you have anything to ask, please contact me clicking following link?
 
